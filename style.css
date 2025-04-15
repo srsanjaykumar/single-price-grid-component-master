@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-family: 'Karla', sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    max-height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    
+}
+.section-1, .part-1 , .part-2{
+    padding: 2rem;
+}
+
+.section-1 h2{
+    color: var(--cyan);
+}
+.section-1 h3{
+    color: var(--bright-yellow);
+}
+.section-1 p{
+    color: var(--grayish-blue);
+}
+
+.section-2{
+    display: flex;
+    color: white;
+}
+.part-1{
+    width: 50%;
+    background-color: var(--cyan);
+}
+.part-2{
+    width: 50%;
+    background-color:#4abebd;
+}
+.part-1 h2{
+    font-size: 1.1rem;
+    color: var(--light-gray);
+}
+.part-1 p{
+    font-size: 0.9rem;
+    
+}
+.part-1 h1{
+    margin-bottom: 0px;
+}
+
+.button{
+    margin-top: 25px;
+    padding: 0.01rem;
+    border-radius: 6px;
+    text-align: center;
+    background-color: var(--bright-yellow);
+}
+span{
+    color: var(--light-gray);
+    font-size: 0.9rem;
+}
+
+
+
+
+
