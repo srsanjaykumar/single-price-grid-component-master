@@ -40,20 +40,28 @@ body {
 .section-1 p{
     color: var(--grayish-blue);
 }
+.price{
+    display: flex;
+    align-items: center;
+  gap: 0.9rem; /* Adjust spacing between $29 and per month */;
+}
 
 .section-2{
     display: flex;
     color: white;
+
 }
 .part-1{
     width: 50%;
     background-color: var(--cyan);
-    box-sizing: border-box;
+    border-radius: 0 0 0 10px;
+
 }
 .part-2{
     width: 50%;
     background-color:#4abebd;
-    box-sizing: border-box;
+    border-radius: 0 0 10px 0;
+
 }
 .part-1 h2{
     font-size: 1.1rem;
@@ -77,6 +85,7 @@ body {
 span{
     color: var(--light-gray);
     font-size: 0.9rem;
+    margin-top: 1.2rem;
 }
 
 .part-2 h2{
@@ -91,7 +100,7 @@ span{
     color: var(--light-gray);
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     .container{
         margin: 50px;
         width: 100%;
@@ -103,6 +112,7 @@ span{
     }
     .section-1, .part-1 , .part-2{
         padding: 1.5rem;
+    
     }
     .section-1 h2{
         font-size: 1.5rem;
@@ -124,6 +134,10 @@ span{
         1. border -radius is included in the width and height of the element
         2 . padding and border are included in the width and height of the element */
         
+    }
+    .part-1 {
+        padding-bottom: 2rem;
+        border-radius: 0;
     }
 
 }
